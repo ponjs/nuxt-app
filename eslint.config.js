@@ -4,8 +4,11 @@ import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(prettierRecommended, {
   rules: {
+    '@stylistic/arrow-parens': 'off',
+    '@stylistic/brace-style': 'off',
     '@stylistic/comma-dangle': 'off',
     '@typescript-eslint/consistent-type-imports': 'warn',
+    'dot-notation': 'warn',
     'prettier/prettier': 'error',
     'import/order': [
       'warn',
