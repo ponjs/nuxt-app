@@ -13,12 +13,15 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "^4.2.5",
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-i18n-routing": "^1.2.0",
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@ant-design-vue/nuxt": "^1.4.5",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@commitlint/types": "^19.5.0",
