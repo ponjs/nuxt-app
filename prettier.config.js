@@ -11,5 +11,5 @@ export default {
   singleQuote: true,
   tabWidth: 2,
   trailingComma: 'es5',
-  plugins: ['prettier-plugin-two-style-order'],
+  plugins: ['prettier-plugin-two-style-order', 'prettier-plugin-tailwindcss'],
 }
